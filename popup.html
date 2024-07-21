@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>popup</title>
+    <style>
+        .input-box {
+            display: flex;
+            margin-bottom: 10px;
+        }
+        .btn-box {
+            display: flex;
+        }
+        #submitBtn {
+            flex: 2;
+            background-color: #2878FF;
+            border: none;
+            color: #fff;
+            padding: 5px 0;
+            border-radius: 5px;
+            margin: 0 5px;
+        }
+        #addBtn {
+            flex: 1;
+            background-color: #ED9E2F;
+            border: none;
+            color: #fff;
+            padding: 5px 0;
+            border-radius: 5px;
+        }
+        #clearBtn {
+            flex: 1;
+            background-color: #D55129;
+            border: none;
+            color: #fff;
+            padding: 5px 0;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h3>请设置主题色</h3>
+    <div id="container"></div>
+    <div class="btn-box">
+        <button id="addBtn">添加</button>
+        <button id="submitBtn">保存</button>
+        <button id="clearBtn">清空</button>
+    </div>
+    <script type="text/javascript" src="./scripts/popup.js"></script>
+</body>
+</html>
